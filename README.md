@@ -1,13 +1,12 @@
-# Causal Perturbation Genomics of Exercise and Biological Ageing
+# Causal Perturbation and Multi-omic Integration of Exercise Biology and Biological Ageing
 
 **Ciara G. Juan — PhD Thesis, Ulster University, 2026**  
-*Faculty of Life and Health Sciences · Supervisors: Professor Gareth Davison · Dr Kyle Matchett*
 
 ---
 
 ## What this thesis does
 
-Most exercise genomics studies produce gene lists. This thesis builds a **causal perturbation framework** — integrating genetic causal inference, supervised graph learning, network-based in silico perturbation, and controlled human experimentation — to resolve *how* habitual vigorous physical activity reorganises molecular systems to shape long-term biological ageing in humans.
+Most exercise genomics studies produce gene lists. This thesis builds a **causal perturbation framework** — integrating genetic causal inference, supervised graph learning, network-based in silico perturbation, and controlled human experimentation — to resolve *how* habitual and acute vigorous physical activity reorganises molecular systems to shape long-term biological ageing in humans.
 
 The central question is not which genes are associated with exercise. It is **which molecular pathways, when perturbed, propagate influence toward stable ageing-related molecular architecture** — and which merely buffer acute physiological stress without encoding ageing state.
 
@@ -45,7 +44,7 @@ Controlled human exercise intervention (RCT)
 ### Study 1 — Meta-analysis of the SIRT1 response to exercise
 *Published: Scientific Reports, 2023*
 
-Systematic review and meta-analysis of 47 studies quantifying the SIRT1 response to exercise in humans. Establishes SIRT1 as an intensity- and energy-sensitive mediator linking physiological stress to DNA damage responses and genome maintenance. Provides the biological grounding for SIRT1 as a high-priority node in the downstream network framework.
+Systematic review and meta-analysis of 47 studies quantifying the SIRT1 response to exercise in humans. Establishes SIRT1 as an intensity and energy-sensitive mediator linking physiological stress to DNA damage responses and genome maintenance. Provides the biological grounding for SIRT1 as a high-priority node in the downstream network framework.
 
 ---
 
@@ -90,7 +89,7 @@ Glycosylation networks act as **proximal encoders of stable ageing-related molec
 ---
 
 ### Study 4 — Randomised controlled crossover trial: exercise × quercetin
-*Preprint: medRxiv, https://doi.org/10.1101/2025.10.31.25338366*
+*Under review: Aging Cell; Preprint: medRxiv, https://doi.org/10.1101/2025.10.31.25338366*
 
 The first randomised, double-blind, placebo-controlled crossover trial combining high-intensity interval exercise (HIIE, ≈80% VO₂max) with three-week quercetin supplementation, quantifying DNA damage and repair alongside glycan-based biological ageing markers in healthy men.
 
@@ -99,7 +98,7 @@ The first randomised, double-blind, placebo-controlled crossover trial combining
 - SIRT1, PARP1, and RAD51 — independently prioritised by the MR-GAT — were significantly upregulated post-exercise, confirming a coordinated homologous recombination axis
 - Quercetin preserved SIRT6 and OGG1 expression, reduced oxidative DNA damage, and promoted NRF2 nuclear translocation
 - Acute exercise remodelled plasma galactosylation and sialylation (directionally consistent with younger glycan-based biological age); quercetin attenuated these acute plasma changes, consistent with redox buffering
-- IgG GlycanAge (a temporally stable composite ageing biomarker) did not change acutely — confirming that stable biological ageing state is not directly encoded by acute stress responses
+- IgG GlycanAge (a temporally stable composite biological ageing marker) did not change acutely — confirming that stable biological ageing state is not directly encoded by acute stress responses
 
 This experimental study provides biological grounding for the network hierarchy identified computationally in Study 3: DNA repair genes are acute responders; glycosylation networks encode integrative, stable ageing state.
 
@@ -130,15 +129,6 @@ This framework refines damage-centric models of ageing by distinguishing stress 
 - Integration of other genetically proxied exposures (diet, pharmacological interventions, disease liabilities)
 - Extension to generative perturbation modelling over expression space
 - Prospective validation in longitudinal exercise cohorts
-
----
-
-## Code repositories
-
-| Repository | Description |
-|---|---|
-| [insilico_exercise_ageing](https://github.com/cgjuan01/insilico_exercise_ageing) | In silico perturbation framework (Studies 2–3): contrastive pretraining, MR-informed refinement, PPR diffusion, ageing clock evaluation |
-| [MR-GAT](https://github.com/cgjuan01) | Supervised graph attention network (Study 2): MR integration, GAT architecture, ablation testing |
 
 ---
 
