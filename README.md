@@ -6,7 +6,7 @@
 
 ## What this thesis does
 
-Most exercise genomics studies produce gene lists. This thesis builds a **causal perturbation framework** — integrating genetic causal inference, supervised graph learning, network-based in silico perturbation, and controlled human experimentation — to resolve *how* habitual and acute vigorous physical activity reorganises molecular systems to shape long-term biological ageing in humans.
+Most exercise genomics studies produce gene lists. This thesis builds a **causal perturbation framework** — integrating genetic causal inference, supervised graph learning, network-based in silico perturbation, and controlled human experimentation — to resolve *how* habitual and acute vigorous physical activity reorganise molecular systems to shape long-term biological ageing in humans.
 
 The central question is not which genes are associated with exercise. It is **which molecular pathways, when perturbed, propagate influence toward stable ageing-related molecular architecture** — and which merely buffer acute physiological stress without encoding ageing state.
 
